@@ -2,6 +2,7 @@ import Image from "next/image";
 import NavBar from "../NavBar";
 import HomeAboutSabaGroup from "./HomeAboutSabaGroup";
 import HomeNetwork from "./HomeNetwork";
+import HomeBusinessDivisions from "./HomeBusinessDivision";
 
 export default function HeroSection() {
   return (
@@ -52,6 +53,7 @@ export default function HeroSection() {
       <div className="bg-white min-h-screen w-full">
         <HomeAboutSabaGroup />
         <HomeNetwork />
+        <HomeBusinessDivisions/>
       </div>
     </>
   );
